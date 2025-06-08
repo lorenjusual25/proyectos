@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1Header">PROYECTO GYM</h1> <br>
+    <form id="exerciseForm">
+        <input type="text" placeholder="Ingresar ejercicio" id="exerciseInput" class="inputs">
+        <select name="muscularGroup" id="muscularGroup">
+            <option value="pecho" id="pecho">Pecho</option>
+            <option value="espalda" id="espalda">Espalda</option>
+            <option value="piernas" id="piernas">Piernas</option>
+            <option value="brazos" id="brazos">Brazos</option>
+            <option value="core" id="core">Core</option>
+        </select>
+        <br>
+        <input type="text" placeholder="Repeticiones" id="repsInput" class="inputs"><br>
+        <input type="text" placeholder="Series" id="setsInput" class="inputs"> <br>
+        <button onclick="addData(event)" id="buttonAgregar">Agregar</button>
+    </form>
+    <ul id="exerciseList">
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>

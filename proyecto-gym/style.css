@@ -1,0 +1,35 @@
+body {
+    background-color: #2a1661ee;
+}
+.inputs {
+    height: 41px;
+    border-radius: 21px;
+    border: 1px solid #ffffff;
+    margin-top: 3%;
+}
+#muscularGroup {
+}
+#h1Header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+#pecho {
+    color:#428fa4;
+}
+#espalda {
+    color: #27f022;
+}
+#piernas {
+    color: #000af2;
+}
+#brazos {
+    color: #90299F;
+}
+#core {
+    color: #737455;
+}
+#buttonAgregar {
+    border-radius: 21px;
+}
