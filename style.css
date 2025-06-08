@@ -1,0 +1,10 @@
+#boton{
+    border-radius: 18%;
+    font-size: medium;
+}
+#parrafo{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
