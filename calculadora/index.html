@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="divCalculator">
+        <input type="text" readonly id="eys">
+        <br>
+        <div id="divBotones">
+        <button onclick="limpiar()" >C</button>
+        <button onclick="mostrarPantalla('(')">(</button>
+        <button onclick="mostrarPantalla(')')">)</button>
+        <button onclick="mostrarPantalla('%')" >%</button>
+        <br>
+        <button onclick="mostrarPantalla('1')">1</button>
+        <button onclick="mostrarPantalla('2')">2</button>
+        <button onclick="mostrarPantalla('3')">3</button>
+        <button onclick="mostrarPantalla('*')">*</button>
+        <br>
+        <button onclick="mostrarPantalla('4')">4</button>
+        <button onclick="mostrarPantalla('5')">5</button>
+        <button onclick="mostrarPantalla('6')">6</button>
+        <button onclick="mostrarPantalla('-')" >-</button>
+        <br>
+        <button onclick="mostrarPantalla('7')">7</button>
+        <button onclick="mostrarPantalla('8')">8</button>
+        <button onclick="mostrarPantalla('9')">9</button>
+        <button onclick="mostrarPantalla('+')" >+</button>
+        <br>
+        <button onclick="mostrarPantalla('/')" >/</button>
+        <button onclick="mostrarPantalla('0')">0</button>
+        <button onclick="mostrarPantalla('.')" id="punto">.</button>
+        <button onclick="resolver()" id="igual">=</button>
+        </div>
+    </div>
+</body>
+</html>
