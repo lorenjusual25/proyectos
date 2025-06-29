@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to bottom, #d2eae8, #437d7e);
+    min-height: 100vh;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+#divButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    gap: 20px;
+    
+}
